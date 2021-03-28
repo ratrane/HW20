@@ -30,5 +30,8 @@ public:
 
 	/*UFUNCTION(BlueprintNativeEvent)
 		void SetFirstElementType();
-		void SetFirstElementType_Imlementation();	*/	
+		void SetFirstElementType_Imlementation();	*/
+
+	int test; //delete later
 };
+
