@@ -14,8 +14,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define HW20_SnakeElementBase_generated_h
 
 #define HW20_Source_HW20_SnakeElementBase_h_14_SPARSE_DATA
-#define HW20_Source_HW20_SnakeElementBase_h_14_RPC_WRAPPERS
-#define HW20_Source_HW20_SnakeElementBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define HW20_Source_HW20_SnakeElementBase_h_14_RPC_WRAPPERS \
+	virtual void SetFirstElementType_Implementation(); \
+ \
+	DECLARE_FUNCTION(execSetFirstElementType);
+
+
+#define HW20_Source_HW20_SnakeElementBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetFirstElementType);
+
+
+#define HW20_Source_HW20_SnakeElementBase_h_14_EVENT_PARMS
+#define HW20_Source_HW20_SnakeElementBase_h_14_CALLBACK_WRAPPERS
 #define HW20_Source_HW20_SnakeElementBase_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASnakeElementBase(); \
@@ -59,13 +70,17 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASnakeElementBase); \
 
 
 #define HW20_Source_HW20_SnakeElementBase_h_14_PRIVATE_PROPERTY_OFFSET
-#define HW20_Source_HW20_SnakeElementBase_h_11_PROLOG
+#define HW20_Source_HW20_SnakeElementBase_h_11_PROLOG \
+	HW20_Source_HW20_SnakeElementBase_h_14_EVENT_PARMS
+
+
 #define HW20_Source_HW20_SnakeElementBase_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	HW20_Source_HW20_SnakeElementBase_h_14_PRIVATE_PROPERTY_OFFSET \
 	HW20_Source_HW20_SnakeElementBase_h_14_SPARSE_DATA \
 	HW20_Source_HW20_SnakeElementBase_h_14_RPC_WRAPPERS \
+	HW20_Source_HW20_SnakeElementBase_h_14_CALLBACK_WRAPPERS \
 	HW20_Source_HW20_SnakeElementBase_h_14_INCLASS \
 	HW20_Source_HW20_SnakeElementBase_h_14_STANDARD_CONSTRUCTORS \
 public: \
@@ -78,6 +93,7 @@ public: \
 	HW20_Source_HW20_SnakeElementBase_h_14_PRIVATE_PROPERTY_OFFSET \
 	HW20_Source_HW20_SnakeElementBase_h_14_SPARSE_DATA \
 	HW20_Source_HW20_SnakeElementBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	HW20_Source_HW20_SnakeElementBase_h_14_CALLBACK_WRAPPERS \
 	HW20_Source_HW20_SnakeElementBase_h_14_INCLASS_NO_PURE_DECLS \
 	HW20_Source_HW20_SnakeElementBase_h_14_ENHANCED_CONSTRUCTORS \
 private: \
