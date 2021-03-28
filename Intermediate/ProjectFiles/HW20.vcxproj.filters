@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HW20.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D94DDA71-215E-4FD1-B31F-219E06EFAF92}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HW20.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HW20Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{3FDF97C0-1E08-4696-B772-895D726D1629}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HW20">
+      <UniqueIdentifier>{3D2E150C-056C-4E4C-AAFF-6DC58826AA5E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HW20\HW20.Build.cs">
+      <Filter>Source\HW20</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HW20\HW20.cpp">
+      <Filter>Source\HW20</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HW20\HW20.h">
+      <Filter>Source\HW20</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HW20\HW20GameModeBase.cpp">
+      <Filter>Source\HW20</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HW20\HW20GameModeBase.h">
+      <Filter>Source\HW20</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HW20\PlayerPawnBase.cpp">
+      <Filter>Source\HW20</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HW20\PlayerPawnBase.h">
+      <Filter>Source\HW20</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HW20\SnakeBase.cpp">
+      <Filter>Source\HW20</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HW20\SnakeBase.h">
+      <Filter>Source\HW20</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HW20\SnakeElementBase.cpp">
+      <Filter>Source\HW20</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HW20\SnakeElementBase.h">
+      <Filter>Source\HW20</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

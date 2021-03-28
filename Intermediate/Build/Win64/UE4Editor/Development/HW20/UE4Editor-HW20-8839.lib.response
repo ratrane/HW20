@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-HW20-8839.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UE proj\HW20\Intermediate\Build\Win64\HW20Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\UE proj\HW20\Intermediate\Build\Win64\UE4Editor\Development\HW20\HW20.cpp.obj"
+"D:\UE proj\HW20\Intermediate\Build\Win64\UE4Editor\Development\HW20\HW20GameModeBase.cpp.obj"
+"D:\UE proj\HW20\Intermediate\Build\Win64\UE4Editor\Development\HW20\PlayerPawnBase.cpp.obj"
+"D:\UE proj\HW20\Intermediate\Build\Win64\UE4Editor\Development\HW20\SnakeBase.cpp.obj"
+"D:\UE proj\HW20\Intermediate\Build\Win64\UE4Editor\Development\HW20\SnakeElementBase.cpp.obj"
+"D:\UE proj\HW20\Intermediate\Build\Win64\UE4Editor\Development\HW20\HW20.init.gen.cpp.obj"
+"D:\UE proj\HW20\Intermediate\Build\Win64\UE4Editor\Development\HW20\HW20GameModeBase.gen.cpp.obj"
+"D:\UE proj\HW20\Intermediate\Build\Win64\UE4Editor\Development\HW20\PlayerPawnBase.gen.cpp.obj"
+"D:\UE proj\HW20\Intermediate\Build\Win64\UE4Editor\Development\HW20\SnakeBase.gen.cpp.obj"
+"D:\UE proj\HW20\Intermediate\Build\Win64\UE4Editor\Development\HW20\SnakeElementBase.gen.cpp.obj"
+"D:\UE proj\HW20\Intermediate\Build\Win64\UE4Editor\Development\HW20\Default.rc2.res"
+/OUT:"D:\UE proj\HW20\Intermediate\Build\Win64\UE4Editor\Development\HW20\UE4Editor-HW20-8839.lib"
+/INCLUDE:IMPLEMENT_MODULE_HW20

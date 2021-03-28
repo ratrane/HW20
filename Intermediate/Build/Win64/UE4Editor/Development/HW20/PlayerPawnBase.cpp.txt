@@ -1,0 +1,7 @@
+D:\UE proj\HW20\Intermediate\Build\Win64\UE4Editor\Development\HW20\Definitions.HW20.h
+D:\UE proj\HW20\Source\HW20\PlayerPawnBase.h
+D:\UE proj\HW20\Intermediate\Build\Win64\UE4Editor\Inc\HW20\PlayerPawnBase.generated.h
+D:\UE_4.26\Engine\Source\Runtime\Engine/Classes/Camera/CameraComponent.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+D:\UE proj\HW20\Source\HW20\SnakeBase.h
+D:\UE proj\HW20\Intermediate\Build\Win64\UE4Editor\Inc\HW20\SnakeBase.generated.h
