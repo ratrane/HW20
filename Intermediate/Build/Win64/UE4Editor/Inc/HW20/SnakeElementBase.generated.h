@@ -8,6 +8,9 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef HW20_SnakeElementBase_generated_h
 #error "SnakeElementBase.generated.h already included, missing '#pragma once' in SnakeElementBase.h"
 #endif
@@ -17,11 +20,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define HW20_Source_HW20_SnakeElementBase_h_16_RPC_WRAPPERS \
 	virtual void SetFirstElementType_Implementation(); \
  \
+	DECLARE_FUNCTION(execHandleBeginOverlap); \
 	DECLARE_FUNCTION(execSetFirstElementType);
 
 
 #define HW20_Source_HW20_SnakeElementBase_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execHandleBeginOverlap); \
 	DECLARE_FUNCTION(execSetFirstElementType);
 
 
