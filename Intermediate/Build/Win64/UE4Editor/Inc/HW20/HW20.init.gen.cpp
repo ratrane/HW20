@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeHW20_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xBC011B9E,
+				0xBBDDCB2B,
 				0xB14018F2,
 				METADATA_PARAMS(nullptr, 0)
 			};
