@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HW20.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D94DDA71-215E-4FD1-B31F-219E06EFAF92}</UniqueIdentifier>
+      <UniqueIdentifier>{6C0635B8-37FA-42D3-9051-9A6A3C997A8C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HW20.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\HW20Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{3FDF97C0-1E08-4696-B772-895D726D1629}</UniqueIdentifier>
+      <UniqueIdentifier>{5D97B970-0166-4290-B9AF-71823E4BF0F4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +25,18 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\HW20">
-      <UniqueIdentifier>{3D2E150C-056C-4E4C-AAFF-6DC58826AA5E}</UniqueIdentifier>
+      <UniqueIdentifier>{666E4078-96FC-4BDD-A2DE-0DCF3902DAE3}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\HW20\Food.cpp">
+      <Filter>Source\HW20</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HW20\Food.h">
+      <Filter>Source\HW20</Filter>
+    </ClInclude>
     <None Include="..\..\Source\HW20\HW20.Build.cs">
       <Filter>Source\HW20</Filter>
     </None>
@@ -39,6 +50,12 @@
       <Filter>Source\HW20</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HW20\HW20GameModeBase.h">
+      <Filter>Source\HW20</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HW20\Interactable.cpp">
+      <Filter>Source\HW20</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HW20\Interactable.h">
       <Filter>Source\HW20</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\HW20\PlayerPawnBase.cpp">

@@ -4,15 +4,17 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Interactable.h"
 #include "SnakeElementBase.generated.h"
+
 
 class UStaticMeshComponent;
 
 UCLASS()
-class HW20_API ASnakeElementBase : public AActor
+class HW20_API ASnakeElementBase : public AActor, public IInteractable
 {
 	GENERATED_BODY()
-	
+
 public:	
 	// Sets default values for this actor's properties
 	ASnakeElementBase();
@@ -32,5 +34,6 @@ public:
 		void SetFirstElementType();
 		void SetFirstElementType_Implementation();
 	
+		virtual void Interact(AActor* Interactor) override;
 };
 
