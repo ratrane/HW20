@@ -20,12 +20,14 @@ struct FHitResult;
 #define HW20_Source_HW20_SnakeElementBase_h_17_RPC_WRAPPERS \
 	virtual void SetFirstElementType_Implementation(); \
  \
+	DECLARE_FUNCTION(execToggleCollision); \
 	DECLARE_FUNCTION(execHandleBeginOverlap); \
 	DECLARE_FUNCTION(execSetFirstElementType);
 
 
 #define HW20_Source_HW20_SnakeElementBase_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execToggleCollision); \
 	DECLARE_FUNCTION(execHandleBeginOverlap); \
 	DECLARE_FUNCTION(execSetFirstElementType);
 

@@ -8,23 +8,14 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class AActor;
 #ifdef HW20_Interactable_generated_h
 #error "Interactable.generated.h already included, missing '#pragma once' in Interactable.h"
 #endif
 #define HW20_Interactable_generated_h
 
 #define HW20_Source_HW20_Interactable_h_13_SPARSE_DATA
-#define HW20_Source_HW20_Interactable_h_13_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execInteract);
-
-
-#define HW20_Source_HW20_Interactable_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execInteract);
-
-
+#define HW20_Source_HW20_Interactable_h_13_RPC_WRAPPERS
+#define HW20_Source_HW20_Interactable_h_13_RPC_WRAPPERS_NO_PURE_DECLS
 #define HW20_Source_HW20_Interactable_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	HW20_API UInteractable(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
